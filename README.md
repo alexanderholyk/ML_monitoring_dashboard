@@ -6,11 +6,11 @@ This program combines a back-end API that creates movie review sentiment analysi
 
 ### How to clone and run in Docker:
 
-- On command line, run: git clone `https://github.com/alexanderholyk/ML_Monitoring_Dashboard`
+- On command line, run: git clone `https://github.com/alexanderholyk/ML_monitoring_dashboard`
 
-- Switch into the folder: `cd ML_Monitoring_Dashboard` or similar
+- Switch into the folder: `cd ML_monitoring_dashboard` or similar
 
-- On command line, run: `make run` to run a container. This will show a URLs for the API and Dashboard; you can copy and paste these into the browser. Alternatively, after calling `make run` you can open Postman, choose your method and endpoint (e.g. http://127.0.0.1:8000/predict), and test it that way. But the intention is to focus on the streamlit dashboard, so follow that URL and you can compare the training and inference distributions and metrics.
+- On command line, run: `make run` to run a container. This will show URLs for the API and Dashboard; you can copy and paste these into the browser. Alternatively, after calling `make run` you can open Postman, choose your method and endpoint (e.g. http://127.0.0.1:8000/predict), and test it that way. But the intention is to focus on the streamlit dashboard, so follow that URL and you can compare the training and inference distributions and metrics.
 
 - To terminate the program, on command line press `ctrl + c`, or you can just skip to `make clean` to delete the image and keep your system clean.
 
